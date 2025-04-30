@@ -1,13 +1,82 @@
-# React + Vite
+# Frontend Intern Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React application built with Vite, TailwindCSS, and React Router.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Fast development with Vite and HMR (Hot Module Replacement)
+- Modern UI components with TailwindCSS
+- Responsive design
+- Client-side routing with React Router
+- UI components with Radix UI primitives
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# frontend
+### Prerequisites
+
+- Node.js (v14.0.0 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+   ```bash
+   git clone <repository-url>
+   cd frontendintern
+   ```
+
+2. Install dependencies
+   ```bash
+   npm install
+   # or
+   yarn
+   ```
+
+3. Start the development server
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+4. Open your browser and navigate to `http://localhost:5173`
+
+## Available Scripts
+
+- `npm run dev` - Start the development server
+- `npm run build` - Build the app for production
+- `npm run preview` - Preview the production build locally
+- `npm run lint` - Run ESLint to check for code issues
+
+## Project Structure
+
+```
+frontendintern/
+├── public/            # Static assets
+├── src/
+│   ├── assets/        # Images, fonts, etc.
+│   ├── components/    # Reusable UI components
+│   ├── lib/           # Utility functions and helpers
+│   ├── screens/       # Main application screens
+│   ├── BlogPage/      # Blog page components
+│   ├── Categories/    # Category-related components
+│   ├── Contact/       # Contact page components
+│   ├── App.jsx        # Main application component
+│   └── index.jsx      # Entry point
+├── index.html         # HTML template
+├── vite.config.js     # Vite configuration
+├── tailwind.config.js # TailwindCSS configuration
+└── package.json       # Project dependencies and scripts
+```
+
+## Technologies
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [React Router](https://reactrouter.com/)
+- [Radix UI](https://www.radix-ui.com/)
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
